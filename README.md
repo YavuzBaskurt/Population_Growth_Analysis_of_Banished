@@ -5,7 +5,7 @@ For this project, I have decided to look into how a settlement building game, Ba
 ## **The Dataset**
 I will collect the data on current population and available food by interacting with a building which lists some important information about the settlement. I will repeat that interaction at the start of each in-game year. The number of available housing is near impossible to keep track of since new couples in Banished always need to move into an empty house, but I can draw some conclusions from the total number of housing I've built. Population in Banished is categorized into two main groups: Adults and children, and it will be important within my dataset to measure them separately.
 
-  **Number of adults**: The game keeps track of this and I can access it through the aforementioned building.
+  **Number of adults**: The game keeps track of this and I can access it through the building mentioned before.
   
   **Number of children**: Available in the same way as the number of adults. I will need to keep track of this separately to look for any decrease in population caused by a lack of children growing into adults while an aging population sees many deaths.
 
